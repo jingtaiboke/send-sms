@@ -76,12 +76,6 @@ L = [
 ]
 
 # 打印Apple:
-for element in L:
-    if isinstance(element,list):
-        for i in element:
-            if i =='Apple' or i == 'Python' or i =='Lisa':
-                print(i)
-
 print(L[0][0])
 print(L[1][1])
 print(L[2][2])
