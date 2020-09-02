@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
 
+
+
+"""
 class MyObject(object):
 
     def __init__(self):

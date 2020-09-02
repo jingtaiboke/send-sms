@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+"""
+作用域：为了保护变量不能直接呗修改，将属性进行保护，所以在变量前面加__ ，是两个下划线哈，调用使用get方法和set方法
+"""
 class Student(object):
 
     def __init__(self, name, score):
@@ -12,6 +14,8 @@ class Student(object):
 
     def get_score(self):
         return self.__score
+
+
 
     def set_score(self, score):
         if 0 <= score <= 100:

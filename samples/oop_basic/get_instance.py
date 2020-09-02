@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+"""
+isinstance() 函数，判断有没有继承关系
+"""
 class Animal(object):
     pass
 

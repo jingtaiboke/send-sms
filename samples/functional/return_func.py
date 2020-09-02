@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+'''
+
+  返回函数
+'''
 def lazy_sum(*args):
     def sum():
         ax = 0
