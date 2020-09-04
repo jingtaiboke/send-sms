@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 
-
+hashStr() 判断类里面有没有这个属性
+getattr()：获取属性，如果属性不存在，可以返回默认值
 
 """
 class MyObject(object):

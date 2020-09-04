@@ -2,19 +2,35 @@
 # -*- coding: utf-8 -*-
 
 import functools
+import re
+import time
+
+"""
+装饰器： 
+
+"""
+
+# eg1:
+def funA(arg):
+    print ('A')
+    a=arg()
+
+@funA
+def funB():
+    print ('B')
+
 
 def log(func):
     @functools.wraps(func)
     def wrapper(*args, **kw):
         print('call %s():' % func.__name__)
         return func(*args, **kw)
-    return wrapper
 
 @log
 def now():
     print('2015-3-25')
 
-now()
+# now()
 
 def logger(text):
     def decorator(func):

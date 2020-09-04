@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+__getitem__
 
+"""
 class Fib(object):
 
     def __getitem__(self, n):
