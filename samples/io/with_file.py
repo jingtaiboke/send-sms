@@ -3,6 +3,11 @@
 
 from datetime import datetime
 
+"""
+with语句来自动帮我们调用close()方法,还可以处理异常
+
+"""
+
 with open('test.txt', 'w') as f:
     f.write('今天是 ')
     f.write(datetime.now().strftime('%Y-%m-%d'))
