@@ -32,3 +32,22 @@ def update():
 # 入口
 if __name__ == '__main__':
     update()
+    # print(result[0])
+
+    # print(res['id'])
+    #
+    # print(type(result))
+    #
+    # print(result.all())
+    # # 得到所有数据
+    # print(result.all())
+    # # 字典形式展示
+    # print(result.all(as_dict=True))
+    # # 获取第一个
+    # print(result.first())
+    # # 以字典形式获取第一个
+    # print(result.first(as_dict=True))
+    # # 排序字典
+    # print(result.first(as_ordereddict=True))
+    # # 查询唯一的一个
+    # print(result.one())
